@@ -1,0 +1,155 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: bold;
+}
+
+#bg {
+      
+      background: url("../images/bg.jpg") no-repeat 50% 50%;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+      display: inline;
+}
+
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color:#d3d39c;
+      font-family: 'Anton', sans-serif;
+      font-weight: normal;
+      font-size: 28px;
+      letter-spacing: 2px;
+
+
+}
+
+nav
+{
+	background-color: black;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+
+nav ul li:hover
+{
+	background: #edbe6d;
+	text-decoration-color: black;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      display: block;
+      text-align: fixed !important;
+}
+
+ul li ul li
+{
+	display: none;
+}
+
+ul li:hover ul li
+{
+	display: block;
+	margin-top: 0px;
+	margin-left: 2em;
+}
+
+
+#pass ul li a{
+	margin-left: 0px;
+}
+
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+.dashbox1{
+    width: 500px;
+    height: auto;
+    background: #000;
+    color: #fff;
+    top: 12%;
+    left: 15%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px 30px 30px 30px;
+}
+
+.dashbox2{
+    width: 500px;
+    height: auto;
+    background: #000;
+    color: #fff;
+    top: 47%;
+    right: 25%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px 30px 30px 30px;
+}
+
+.dashbox1 input{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.dashbox1 input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:#34b2ed ;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.dashbox2 input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #078eb7;
+    color: black;
+}
